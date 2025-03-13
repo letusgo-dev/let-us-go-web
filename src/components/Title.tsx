@@ -47,7 +47,7 @@ const Title = () => {
         </span>
       </div>
       <div className={styles.description}>iOS 개발자들의 2025 봄 컨퍼런스에 초대합니다.</div>
-      <div className={styles.date}>2025.3.29(SAT) 13:00 - 18:00</div>
+      <div className={styles.date}>2025.4.26(SAT) 11:00 - 16:30</div>
       <a href="https://forms.gle/XYgxktLg4RuHBntX6" target="_blank" className={styles.applyButton}>
         ✍️컨퍼런스 등록하기
       </a>

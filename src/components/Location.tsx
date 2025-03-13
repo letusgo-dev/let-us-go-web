@@ -6,8 +6,8 @@ import Signature1Big from "@/assets/svgs/signature1-big.svg?react";
 import Signature1Small from "@/assets/svgs/signature1-small.svg?react";
 
 const LOCATION = {
-  lat: 37.54619,
-  lng: 127.06578,
+  lat: 37.49548,
+  lng: 127.03884,
 };
 
 const Location = forwardRef<HTMLDivElement>((_props, ref) => {
@@ -22,7 +22,7 @@ const Location = forwardRef<HTMLDivElement>((_props, ref) => {
         <Signature1Small />
       </div>
       <div className={styles.title}>Location</div>
-      <div>엘리스랩에서 6월 29일에 만나요!</div>
+      <div>마루 180에서 4월 26일에 만나요!</div>
       <div className={styles.mapContainer}>
         <Map
           id="map"

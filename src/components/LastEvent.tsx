@@ -8,7 +8,7 @@ const LastEvent = () => {
 
   return (
     <Slider className={styles.slider}>
-      <a href="https://letusgo2024-winter.vercel.app/">
+      <a href="https://letusgo-landing.vercel.app">
         <div className={styles.message}>{repeatedMessage}</div>
       </a>
     </Slider>

@@ -17,7 +17,7 @@ const Timetable = forwardRef<HTMLDivElement>((_props, ref) => {
       <div className={styles.title}>Timetable</div>
       <div className={styles.timetableContainer}>
         <div className={styles.scheduleItem}>
-          <div className={styles.time}>13:00 - 13:20</div>
+          <div className={styles.time}>11:00 - 11:20</div>
           <div>
             <div className={styles.sessionTitle}>개회사</div>
             <div className={styles.hostInfo}>let us: Go!</div>

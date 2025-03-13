@@ -15,18 +15,17 @@ const Invitation = () => {
       </div>
       <div className={styles.title}>Invitation</div>
       <div className={classNames(styles.description, styles.desktopOnly)}>
-        뜨거운 햇살이 시작되는 6월입니다.{"\n"}WWDC의 분위기와 더불어 날씨도 뜨거워지고 있는데요, 이
-        뜨거운 열정을 함께 나누는{"\n"}찍먹톤을 개최합니다. WWDC24의 기술을 슬쩍 찍어먹어보는
-        해커톤인 찍먹톤,{"\n"}새로운 도전과 함께 성장하는 기회를 가져보는 것은 어떨까요?
+        let us: Go!는 iOS 개발에 관심있는 모두가 모여{"\n"}개발 노하우와 다양한 경험, 그리고 정보를 서로 공유하고{"\n"}자유롭게 소통하는 iOS 커뮤니티입니다.{"\n"}{"\n"}
+        새로운 기대로 가득한 봄입니다.{"\n"}따스한 봄의 기운으로 let us: Go!와 함께{"\n"}새로운 도전을 하며, 성장하는 기회가 되어보는 건 어떠신가요?{"\n"}{"\n"}
+        예쁜 굿즈와 푸짐한 경품도 기대하세요!!{"\n"}
       </div>
       <div className={classNames(styles.description, styles.mobileOnly)}>
-        뜨거운 햇살이 시작되는 6월입니다.{"\n"}WWDC의 분위기와 더불어 날씨도 뜨거워지고 {"\n"}
-        있는데요, 이 뜨거운 열정을 함께 나누는 찍먹톤을 {"\n"}개최합니다. WWDC24의 기술을 슬쩍
-        찍어먹어{"\n"}보는 해커톤인 찍먹톤, 새로운 도전과 함께 성장하는 {"\n"}기회를 가져보는 것은
-        어떨까요?
+        let us: Go!는 iOS 개발에 관심있는 모두가 모여{"\n"}개발 노하우와 다양한 경험, 그리고 정보를 서로 공유하고{"\n"}자유롭게 소통하는 iOS 커뮤니티입니다.{"\n"}{"\n"}
+        새로운 기대로 가득한 봄입니다.{"\n"}따스한 봄의 기운으로 let us: Go!와 함께{"\n"}새로운 도전을 하며, 성장하는 기회를 가져보는 건 어떠신가요?{"\n"}{"\n"}
+        예쁜 굿즈와 푸짐한 경품도 기대하세요!!{"\n"}
       </div>
       <div className={styles.eventIntro}>
-        6월 29일 토요일, {"\n"}함께 모여 뜨거운 여름을 불태워보자구요 🙌
+        ‘4월 26일 토요일’ [let us: Go! 2025 봄]을 개최합니다.
       </div>
       <div className={styles.imageContainer}>
         <img src={groupPhotoImage} alt="단체사진" />
