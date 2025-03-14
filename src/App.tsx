@@ -7,6 +7,7 @@ import Invitation from "./components/Invitation";
 import SpeakersSupporters from "./components/SpeakersSupporters";
 import Timetable from "./components/Timetable";
 import Sponsors from "./components/Sponsors";
+import Committees from "./components/Committees";
 import Location from "./components/Location";
 import Contact from "./components/Contact";
 import LastEvent from "./components/LastEvent";
@@ -17,16 +18,18 @@ const App = () => {
   const speakersRef = useRef<HTMLDivElement>(null);
   const locationRef = useRef<HTMLDivElement>(null);
   const sponsorsRef = useRef<HTMLDivElement>(null);
+  const committeesRef = useRef<HTMLDivElement>(null);
   const contactRef = useRef<HTMLDivElement>(null);
 
   const scrollToSection = (
-    section: "timetable" | "speakers" | "location" | "sponsors" | "contact",
+    section: "timetable" | "speakers" | "location" | "sponsors" | "committees" | "contact",
   ) => {
     const sectionRef = {
       timetable: timetableRef,
       speakers: speakersRef,
       location: locationRef,
       sponsors: sponsorsRef,
+      committees: committeesRef,
       contact: contactRef,
     }[section];
 
@@ -51,6 +54,7 @@ const App = () => {
           <Timetable ref={timetableRef} />
           <Sponsors ref={sponsorsRef} />
           <Location ref={locationRef} />
+          <Committees ref={committeesRef} />
           <Contact ref={contactRef} />
         </div>
         <LastEvent />
