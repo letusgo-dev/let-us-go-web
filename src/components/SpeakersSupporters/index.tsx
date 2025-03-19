@@ -3,11 +3,8 @@ import { css } from "@styled-system/css";
 import ProfileCard from "./ProfileCard";
 import Signature2Big from "@/assets/svgs/signature2-big.svg?react";
 import Signature2Small from "@/assets/svgs/signature2-small.svg?react";
-import ethanImage from "@/assets/images/SpeakersSupporters/ethan.jpeg";
-import eunpyoImage from "@/assets/images/SpeakersSupporters/eunpyo.jpeg";
-import jercyImage from "@/assets/images/SpeakersSupporters/jercy.png";
-import summercatImage from "@/assets/images/SpeakersSupporters/summercat.jpeg";
-import terryImage from "@/assets/images/SpeakersSupporters/terry.jpeg";
+import commingsoonImage from "@/assets/svgs/logo_filled.svg";
+
 
 const SpeakersSupporters = forwardRef<HTMLDivElement>((_props, ref) => {
   return (
@@ -23,36 +20,40 @@ const SpeakersSupporters = forwardRef<HTMLDivElement>((_props, ref) => {
       <div className={styles.title}>Speakers & Supporters</div>
       <div className={styles.cardContainer}>
         <ProfileCard
-          image={jercyImage}
+          image={commingsoonImage}
           role="speaker"
-          nickname="재르시"
-          comment="모먼티카 많은 관심 부탁드려요"
+          nickname="곧 공개됩니다"
+          comment="Coming soon"
         />
         <ProfileCard
-          image={ethanImage}
+          image={commingsoonImage}
           role="speaker"
-          nickname="Ethan"
-          comment="경력 8개월차 응애 개발자입니다."
+          nickname="곧 공개됩니다"
+          comment="Coming soon"
         />
         <ProfileCard
-          image={summercatImage}
+          image={commingsoonImage}
           role="speaker"
-          nickname="summercat"
-          comment="수습이 아직 안 끝난 신입 개발자(진)"
+          nickname="곧 공개됩니다"
+          comment="Coming soon"
         />
         <ProfileCard
-          image={terryImage}
+          image={commingsoonImage}
           role="speaker"
-          nickname="Terry"
-          comment="iOS, i는 소문자로 적어주세요"
+          nickname="곧 공개됩니다"
+          comment="Coming soon"
         />
-        <ProfileCard image={eunpyoImage} role="speaker" nickname="은표" comment="사실주의 개발자" />
-        <ProfileCard image={eunpyoImage} role="speaker" nickname="은표" comment="사실주의 개발자" />
         <ProfileCard
-          image={eunpyoImage}
-          role="supporter"
-          nickname="은표"
-          comment="사실주의 개발자"
+          image={commingsoonImage}
+          role="speaker"
+          nickname="곧 공개됩니다"
+          comment="Coming soon"
+        />
+        <ProfileCard
+          image={commingsoonImage}
+          role="speaker"
+          nickname="곧 공개됩니다"
+          comment="Coming soon"
         />
       </div>
     </div>

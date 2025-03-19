@@ -26,13 +26,10 @@ const Timetable = forwardRef<HTMLDivElement>((_props, ref) => {
         <div className={styles.scheduleItem}>
           <div className={styles.time}>13:20 - 13:40</div>
           <div>
-            <div className={styles.sessionTitle}>코딩테스트</div>
-            <div className={styles.hostInfo}>수박/야곰아카데미</div>
+            <div className={styles.sessionTitle}>기다려주세요</div>
+            <div className={styles.hostInfo}>곧 공개됩니다</div>
             <div className={styles.sessionDescription}>
-              새로운 관점과 기획으로 브랜드 성장을 이끄는 사람들의 이야기 새로운 관점과 기획으로
-              브랜드 성장을 이끄는 사람들의 이야기새로운 관점과 기획으로 브랜드 성장을 이끄는
-              사람들의 이야기새로운 관점과 기획으로 브랜드 성장을 이끄는 사람들의 이야기새로운
-              관점과 기획으로 브랜드 성장을 이끄는 사람들의 이야기
+            Coming soon
             </div>
           </div>
         </div>
