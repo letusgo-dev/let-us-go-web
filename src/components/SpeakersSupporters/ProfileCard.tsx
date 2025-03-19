@@ -2,7 +2,7 @@ import { css } from "@styled-system/css";
 
 interface Props {
   image: string;
-  role: "speaker" | "supporter";
+  role: "speaker" | "supporter" | "Committee";
   nickname: string;
   comment: string;
 }
@@ -49,7 +49,7 @@ const styles = {
       height: "15rem",
     },
   }),
-  role: (role: "speaker" | "supporter") =>
+  role: (role: "speaker" | "supporter" | "Committee") =>
     css({
       color: role === "speaker" ? "spring" : "springSolid",
       textTransform: "uppercase",

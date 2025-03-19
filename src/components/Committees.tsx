@@ -3,11 +3,13 @@ import { css } from "@styled-system/css";
 import ProfileCard from "./SpeakersSupporters/ProfileCard";
 import Signature2Big from "@/assets/svgs/signature2-big.svg?react";
 import Signature2Small from "@/assets/svgs/signature2-small.svg?react";
-import ethanImage from "@/assets/images/SpeakersSupporters/ethan.jpeg";
-import eunpyoImage from "@/assets/images/SpeakersSupporters/eunpyo.jpeg";
-import jercyImage from "@/assets/images/SpeakersSupporters/jercy.png";
-import summercatImage from "@/assets/images/SpeakersSupporters/summercat.jpeg";
-import terryImage from "@/assets/images/SpeakersSupporters/terry.jpeg";
+import yagomImage from "@/assets/images/Committees/yagom.png";
+import jercyImage from "@/assets/images/Committees/jercy.png";
+import kuuImage from "@/assets/images/Committees/kuu.png";
+import unchainImage from "@/assets/images/Committees/unchain.png";
+import mindiImage from "@/assets/images/Committees/mindi.png";
+import miiiImage from "@/assets/images/Committees/miiii.png";
+import mingsoImage from "@/assets/images/Committees/mingso.png";
 
 const Committees = forwardRef<HTMLDivElement>((_props, ref) => {
   return (
@@ -23,7 +25,7 @@ const Committees = forwardRef<HTMLDivElement>((_props, ref) => {
       <div className={styles.title}>Committees</div>
       <div className={styles.cardContainer}>
         <ProfileCard
-          image={ethanImage}
+          image={yagomImage}
           role="Committee"
           nickname="야곰"
           comment="디지털보다 아날로그를 사랑하는 프로그래머입니다."
@@ -35,31 +37,31 @@ const Committees = forwardRef<HTMLDivElement>((_props, ref) => {
           comment="모먼티카 많은 관심 부탁드려요"
         />
         <ProfileCard
-          image={summercatImage}
+          image={kuuImage}
           role="Committee"
           nickname="Kuu"
           comment="모두 건강하고 행복하세요 💕"
         />
         <ProfileCard
-          image={terryImage}
+          image={unchainImage}
           role="Committee"
           nickname="언체인"
           comment="철인3종나가실 동료 구합니다! 연락주세요"
         />
         <ProfileCard
-          image={eunpyoImage}
+          image={mindiImage}
           role="Committee"
           nickname="민디"
           comment="오쓰 🤙"
         />
         <ProfileCard
-          image={eunpyoImage}
+          image={miiiImage}
           role="Committee"
           nickname="미이이이"
           comment="귀여운게 최고야🐶"
         />
         <ProfileCard
-          image={eunpyoImage}
+          image={mingsoImage}
           role="Committee"
           nickname="밍소"
           comment="사실주의 개발자"
