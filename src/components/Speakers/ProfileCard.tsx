@@ -74,7 +74,7 @@ const styles = {
 
     "@media (max-width: 768px)": {
       fontSize: "1.6rem",
-      marginBottom: "1.2rem",
+      marginBottom: "0rem",
     },
   }),
   company: css({

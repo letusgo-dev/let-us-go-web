@@ -8,7 +8,7 @@ import gomImage from "@/assets/images/Speakers/bear.jpeg";
 import smileImage from "@/assets/images/Speakers/smile.jpeg";
 import tomImage from "@/assets/images/Speakers/tom.jpg";
 import alvinImage from "@/assets/images/Speakers/alvin.jpeg";
-
+import smisImage from "@/assets/images/Speakers/smis.png";
 
 const Speakers = forwardRef<HTMLDivElement>((_props, ref) => {
   return (
@@ -57,11 +57,11 @@ const Speakers = forwardRef<HTMLDivElement>((_props, ref) => {
           comment="Do you like maple syrup?"
         />
         <ProfileCard
-          image={commingsoonImage}
+          image={smisImage}
           role="speaker"
-          nickname="이옥민"
-          company=""
-          comment="Coming soon"
+          nickname="스미스"
+          company="딜라이트룸"
+          comment="잘 부탁드립니다!"
         />
         <ProfileCard
           image={commingsoonImage}
