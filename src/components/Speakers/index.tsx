@@ -27,12 +27,14 @@ const Speakers = forwardRef<HTMLDivElement>((_props, ref) => {
           image={gomImage}
           role="speaker"
           nickname="곰튀김"
+          company="보이저엑스"
           comment="리얼리즘 프로그래머"
         />
         <ProfileCard
           image={smileImage}
           role="speaker"
           nickname="스마일"
+          company="SOOP"
           comment={
             <>
             버그와 함께 미소를 잃은<br/>
@@ -44,24 +46,28 @@ const Speakers = forwardRef<HTMLDivElement>((_props, ref) => {
           image={tomImage}
           role="speaker"
           nickname="톰"
+          company="채널코퍼레이션"
           comment="육아 관련 대화 환영"
         />
         <ProfileCard
           image={alvinImage}
           role="speaker"
-          nickname="앨빈"
+          nickname="Alvin"
+          company="Appknot"
           comment="Do you like maple syrup?"
         />
         <ProfileCard
           image={commingsoonImage}
           role="speaker"
           nickname="이옥민"
+          company=""
           comment="Coming soon"
         />
         <ProfileCard
           image={commingsoonImage}
           role="speaker"
           nickname="곧 공개됩니다"
+          company=""
           comment="Coming soon"
         />
       </div>

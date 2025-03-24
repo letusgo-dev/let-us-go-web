@@ -5,10 +5,11 @@ interface Props {
   image: string;
   role: "speaker" | "supporter" | "Committee";
   nickname: string;
+  company?: string;
   comment: ReactNode;
 }
 
-const ProfileCard = ({ image, role, nickname, comment }: Props) => {
+const ProfileCard = ({ image, role, nickname, company, comment }: Props) => {
   return (
     <div className={styles.container}>
       <div className={styles.profileImage}>
@@ -16,6 +17,7 @@ const ProfileCard = ({ image, role, nickname, comment }: Props) => {
       </div>
       <div className={styles.role(role)}>{role}</div>
       <div className={styles.nickname}>{nickname}</div>
+      {company && <div className={styles.company}>{company}</div>}
       <div className={styles.comment}>{comment}</div>
     </div>
   );
@@ -68,10 +70,20 @@ const styles = {
   nickname: css({
     fontWeight: "bold",
     fontSize: "3.2rem",
-    marginBottom: "2.4rem",
+    marginBottom: "0.2rem",
 
     "@media (max-width: 768px)": {
       fontSize: "1.6rem",
+      marginBottom: "1.2rem",
+    },
+  }),
+  company: css({
+    fontSize: "2rem",
+    color: "gray.400",
+    marginBottom: "2.4rem",
+
+    "@media (max-width: 768px)": {
+      fontSize: "1.2rem",
       marginBottom: "1.2rem",
     },
   }),
