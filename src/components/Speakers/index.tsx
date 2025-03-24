@@ -5,8 +5,9 @@ import Signature2Big from "@/assets/svgs/signature2-big.svg?react";
 import Signature2Small from "@/assets/svgs/signature2-small.svg?react";
 import commingsoonImage from "@/assets/svgs/logo_filled.svg";
 import gomImage from "@/assets/images/Speakers/bear.jpeg";
-import tomImage from "@/assets/images/Speakers/tom.jpg";
 import smileImage from "@/assets/images/Speakers/smile.jpeg";
+import tomImage from "@/assets/images/Speakers/tom.jpg";
+import alvinImage from "@/assets/images/Speakers/alvin.jpeg";
 
 
 const Speakers = forwardRef<HTMLDivElement>((_props, ref) => {
@@ -26,41 +27,35 @@ const Speakers = forwardRef<HTMLDivElement>((_props, ref) => {
           image={gomImage}
           role="speaker"
           nickname="곰튀김"
-          comment={
-            <>
-            AI가 코딩하는 시대에<br/>
-            개발자가 되겠다구요?
-            </>
-          }
+          comment="리얼리즘 프로그래머"
         />
         <ProfileCard
           image={smileImage}
           role="speaker"
           nickname="스마일"
-          comment="SwiftUI 렌더링 성능 개선"
+          comment={
+            <>
+            버그와 함께 미소를 잃은<br/>
+            스마일입니다.
+            </>
+            }
         />
         <ProfileCard
           image={tomImage}
           role="speaker"
           nickname="톰"
-          comment={
-            <>
-            Swift 소유권 키워드<br/>
-            (noncopyable, borrowing,<br/>
-            consuming) 톺아보기
-            </>
-          }
+          comment="육아 관련 대화 환영"
+        />
+        <ProfileCard
+          image={alvinImage}
+          role="speaker"
+          nickname="앨빈"
+          comment="Do you like maple syrup?"
         />
         <ProfileCard
           image={commingsoonImage}
           role="speaker"
-          nickname="옥민"
-          comment="Coming soon"
-        />
-        <ProfileCard
-          image={commingsoonImage}
-          role="speaker"
-          nickname="곧 공개됩니다"
+          nickname="이옥민"
           comment="Coming soon"
         />
         <ProfileCard
