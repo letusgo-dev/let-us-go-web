@@ -24,27 +24,21 @@ const Timetable = forwardRef<HTMLDivElement>((_props, ref) => {
           </div>
         </div>
         <div className={styles.scheduleItem}>
-          <div className={styles.time}>13:20 - 13:40</div>
+          <div className={styles.time}>11:20 - 16:30</div>
           <div>
             <div className={styles.sessionTitle}>기다려주세요</div>
-            <div className={styles.hostInfo}>곧 공개됩니다</div>
+            <div className={styles.hostInfo}>곧 공개됩니다.</div>
             <div className={styles.sessionDescription}>
             Coming soon
             </div>
           </div>
         </div>
-        <div className={styles.scheduleItem}>
+        {/* <div className={styles.scheduleItem}>
           <div className={styles.time}>13:40 - 14:50</div>
           <div>
             <div className={styles.sessionTitle}>Networking & Photo</div>
           </div>
-        </div>
-        <div className={styles.scheduleItem}>
-          <div className={styles.time}>15:00 - 15:50</div>
-          <div>
-            <div className={styles.sessionTitle}>Break Time</div>
-          </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

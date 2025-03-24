@@ -6,10 +6,10 @@ import Signature2Small from "@/assets/svgs/signature2-small.svg?react";
 import yagomImage from "@/assets/images/Committees/yagom.png";
 import jercyImage from "@/assets/images/Committees/jercy.png";
 import kuuImage from "@/assets/images/Committees/kuu.png";
-import unchainImage from "@/assets/images/Committees/unchain.png";
+import unchainImage from "@/assets/images/Committees/unchain.jpeg";
 import mindiImage from "@/assets/images/Committees/mindi.png";
 import miiiImage from "@/assets/images/Committees/miiii.png";
-import mingsoImage from "@/assets/images/Committees/mingso.png";
+import mingsoImage from "@/assets/images/Committees/mingso.jpg";
 
 const Committees = forwardRef<HTMLDivElement>((_props, ref) => {
   return (
@@ -28,7 +28,12 @@ const Committees = forwardRef<HTMLDivElement>((_props, ref) => {
           image={yagomImage}
           role="Committee"
           nickname="야곰"
-          comment="디지털보다 아날로그를 사랑하는 프로그래머입니다."
+          comment={
+            <>
+            디지털보다 아날로그를 사랑하는<br/>
+            프로그래머입니다.
+            </>
+          }
         />
         <ProfileCard
           image={jercyImage}
@@ -46,7 +51,12 @@ const Committees = forwardRef<HTMLDivElement>((_props, ref) => {
           image={unchainImage}
           role="Committee"
           nickname="언체인"
-          comment="철인3종나가실 동료 구합니다! 연락주세요"
+          comment={
+            <>
+            마라톤 풀코스<br/>
+            함께 하실분 구합니다.
+            </>
+          }
         />
         <ProfileCard
           image={mindiImage}
@@ -64,7 +74,7 @@ const Committees = forwardRef<HTMLDivElement>((_props, ref) => {
           image={mingsoImage}
           role="Committee"
           nickname="밍소"
-          comment="사실주의 개발자"
+          comment="운동하고 먹고 여행합니다"
         />
       </div>
     </div>

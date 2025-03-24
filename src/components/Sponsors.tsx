@@ -18,6 +18,9 @@ const Sponsors = forwardRef<HTMLDivElement>((_props, ref) => {
       <div className={styles.describe}>
         let us: Go!는 여러분과 후원사의 지원으로{"\n"} 만들어집니다.
       </div>
+      <div className={styles.place}>곧 공개됩니다.</div>
+      
+      {/*
       <div className={styles.imageContainer}>
         <div>
           <div className={styles.eliceLab}>
@@ -34,6 +37,7 @@ const Sponsors = forwardRef<HTMLDivElement>((_props, ref) => {
           <div className={styles.placeName}>앱노트</div>
         </div>
       </div>
+      */}
     </div>
   );
 });
