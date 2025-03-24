@@ -1,8 +1,6 @@
 import Signature4Big from "@/assets/svgs/signature4-big.svg?react";
 import Signature4Small from "@/assets/svgs/signature4-small.svg?react";
 import { css } from "@styled-system/css";
-import eliceLabImage from "@/assets/images/sponsors/eliceLab.png";
-import appknotImage from "@/assets/images/sponsors/appknot.png";
 import { forwardRef } from "react";
 
 const Sponsors = forwardRef<HTMLDivElement>((_props, ref) => {

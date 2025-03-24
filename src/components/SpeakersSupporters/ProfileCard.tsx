@@ -1,10 +1,11 @@
 import { css } from "@styled-system/css";
+import { ReactNode } from "react";
 
 interface Props {
   image: string;
   role: "speaker" | "supporter" | "Committee";
   nickname: string;
-  comment: string;
+  comment: ReactNode;
 }
 
 const ProfileCard = ({ image, role, nickname, comment }: Props) => {
