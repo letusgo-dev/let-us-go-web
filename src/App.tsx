@@ -4,7 +4,7 @@ import Header from "./components/Header";
 import Title from "./components/Title";
 import Banner from "./components/Banner";
 import Invitation from "./components/Invitation";
-import SpeakersSupporters from "./components/SpeakersSupporters";
+import Speakers from "./components/Speakers";
 import Timetable from "./components/Timetable";
 import Sponsors from "./components/Sponsors";
 import Committees from "./components/Committees";
@@ -50,7 +50,7 @@ const App = () => {
         <Banner />
         <div className={styles.contentContainer}>
           <Invitation />
-          <SpeakersSupporters ref={speakersRef} />
+          <Speakers ref={speakersRef} />
           <Timetable ref={timetableRef} />
           <Sponsors ref={sponsorsRef} />
           <Location ref={locationRef} />

@@ -9,7 +9,7 @@ import tomImage from "@/assets/images/Speakers/tom.jpg";
 import smileImage from "@/assets/images/Speakers/smile.jpeg";
 
 
-const SpeakersSupporters = forwardRef<HTMLDivElement>((_props, ref) => {
+const Speakers = forwardRef<HTMLDivElement>((_props, ref) => {
   return (
     <div ref={ref} className={styles.container}>
       <div className={styles.logoContainer}>
@@ -20,7 +20,7 @@ const SpeakersSupporters = forwardRef<HTMLDivElement>((_props, ref) => {
           <Signature2Small />
         </div>
       </div>
-      <div className={styles.title}>Speakers & Supporters</div>
+      <div className={styles.title}>Speakers</div>
       <div className={styles.cardContainer}>
         <ProfileCard
           image={gomImage}
@@ -74,7 +74,7 @@ const SpeakersSupporters = forwardRef<HTMLDivElement>((_props, ref) => {
   );
 });
 
-export default SpeakersSupporters;
+export default Speakers;
 
 const styles = {
   container: css({
