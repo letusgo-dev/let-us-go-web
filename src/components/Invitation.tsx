@@ -15,14 +15,12 @@ const Invitation = () => {
       </div>
       <div className={styles.title}>Invitation</div>
       <div className={classNames(styles.description, styles.desktopOnly)}>
-        let us: Go!는 iOS 개발에 관심있는 모두가 모여{"\n"}개발 노하우와 다양한 경험, 그리고 정보를 서로 공유하고{"\n"}자유롭게 소통하는 iOS 커뮤니티입니다.{"\n"}{"\n"}
-        새로운 기대로 가득한 봄입니다.{"\n"}따스한 봄의 기운으로 let us: Go!와 함께{"\n"}새로운 도전을 하며, 성장하는 기회가 되어보는 건 어떠신가요?{"\n"}{"\n"}
-        예쁜 굿즈와 푸짐한 경품도 기대하세요!!{"\n"}
+        let us: Go!는 iOS 개발에 관심있는 모두가 모여{"\n"}개발 노하우와 다양한 경험을 나누고{"\n"}자유롭게 소통하는 iOS 커뮤니티입니다.{"\n"}{"\n"}
+        새로운 시작과 도전이 어울리는 계절, 봄이 찾아왔습니다.{"\n"}따스한 봄의 기운과 함께 let us: Go!에서{"\n"}성장할 기회를 가져보는 건 어떠신가요?{"\n"}{"\n"}
       </div>
       <div className={classNames(styles.description, styles.mobileOnly)}>
-        let us: Go!는 iOS 개발에 관심있는 모두가 모여{"\n"}개발 노하우와 다양한 경험, 그리고 정보를 서로 공유하고{"\n"}자유롭게 소통하는 iOS 커뮤니티입니다.{"\n"}{"\n"}
-        새로운 기대로 가득한 봄입니다.{"\n"}따스한 봄의 기운으로 let us: Go!와 함께{"\n"}새로운 도전을 하며, 성장하는 기회를 가져보는 건 어떠신가요?{"\n"}{"\n"}
-        예쁜 굿즈와 푸짐한 경품도 기대하세요!!{"\n"}
+        let us: Go!는 iOS 개발에 관심있는 모두가 모여{"\n"}개발 노하우와 다양한 경험을 나누고{"\n"}자유롭게 소통하는 iOS 커뮤니티입니다.{"\n"}{"\n"}
+        새로운 시작과 도전이 어울리는 계절, 봄이 찾아왔습니다.{"\n"}따스한 봄의 기운과 함께 let us: Go!에서{"\n"}성장할 기회를 가져보는 건 어떠신가요?{"\n"}{"\n"}
       </div>
       <div className={styles.eventIntro}>
         ‘4월 26일 토요일’ [let us: Go! 2025 봄]을 개최합니다.
