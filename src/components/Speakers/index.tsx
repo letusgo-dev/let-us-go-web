@@ -43,6 +43,13 @@ const Speakers = forwardRef<HTMLDivElement>((_props, ref) => {
             }
         />
         <ProfileCard
+          image={smisImage}
+          role="speaker"
+          nickname="스미스"
+          company="딜라이트룸"
+          comment="잘 부탁드립니다!"
+        />
+        <ProfileCard
           image={tomImage}
           role="speaker"
           nickname="톰"
@@ -56,13 +63,7 @@ const Speakers = forwardRef<HTMLDivElement>((_props, ref) => {
           company="Appknot"
           comment="Do you like maple syrup?"
         />
-        <ProfileCard
-          image={smisImage}
-          role="speaker"
-          nickname="스미스"
-          company="딜라이트룸"
-          comment="잘 부탁드립니다!"
-        />
+
         <ProfileCard
           image={commingsoonImage}
           role="speaker"
