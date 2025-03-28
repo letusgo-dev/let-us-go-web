@@ -21,7 +21,7 @@ const Header = ({ onScrollToSection }: Props) => {
           <li onClick={() => onScrollToSection("location")}>Location</li>
           <li onClick={() => onScrollToSection("contact")}>Contact</li>
         </ul>
-        <button className={styles.registerButton}>🧑‍💻 컨퍼런스 신청하기</button>
+        {/* <button className={styles.registerButton}>🧑‍💻 컨퍼런스 신청하기</button> */}
       </nav>
     </header>
   );
@@ -96,7 +96,7 @@ const styles = {
     backgroundColor: "springSolid",
     fontWeight: 700,
     fontSize: "1.2rem",
-    color: "background.500",
+    color: "ffffff",
     borderRadius: "5rem",
 
     "@media (max-width: 768px)": {

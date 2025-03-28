@@ -64,13 +64,13 @@ const Speakers = forwardRef<HTMLDivElement>((_props, ref) => {
           comment="Do you like maple syrup?"
         />
 
-        <ProfileCard
+        {/* <ProfileCard
           image={commingsoonImage}
           role="speaker"
           nickname="곧 공개됩니다"
           company=""
           comment="Coming soon"
-        />
+        /> */}
       </div>
     </div>
   );

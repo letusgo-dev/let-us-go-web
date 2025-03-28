@@ -47,9 +47,16 @@ const Title = () => {
         </span>
       </div>
       <div className={styles.description}>iOS 개발자들의 2025 봄 컨퍼런스에 초대합니다.</div>
-      <div className={styles.date}>2025.4.26(SAT) 11:00 - 16:30</div>
-      <a href="https://forms.gle/XYgxktLg4RuHBntX6" target="_blank" className={styles.applyButton}>
-        ✍️컨퍼런스 등록하기
+      <div className={styles.date}>2025.4.26(SAT) 13:00 - 17:00</div>
+      <a 
+        href="#"
+        target="_blank"
+        className={styles.applyButton}
+        onClick={(e) => {
+          e.preventDefault();
+          alert("추후 오픈 예정입니다.");
+        }}>
+        ✍️ 컨퍼런스 신청하기
       </a>
     </div>
   );
