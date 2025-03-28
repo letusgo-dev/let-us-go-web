@@ -3,7 +3,7 @@ import { css } from "@styled-system/css";
 import ProfileCard from "./ProfileCard";
 import Signature2Big from "@/assets/svgs/signature2-big.svg?react";
 import Signature2Small from "@/assets/svgs/signature2-small.svg?react";
-import commingsoonImage from "@/assets/svgs/logo_filled.svg";
+// import commingsoonImage from "@/assets/svgs/logo_filled.svg";
 import gomImage from "@/assets/images/Speakers/bear.jpeg";
 import smileImage from "@/assets/images/Speakers/smile.jpeg";
 import tomImage from "@/assets/images/Speakers/tom.jpg";
