@@ -39,42 +39,42 @@ const Timetable = forwardRef<HTMLDivElement>((_props, ref) => {
           </div>
         </div>
         <div className={styles.scheduleItem}>
-          <div className={styles.time}>13:50 - 14:20</div>
+          <div className={styles.time}>13:50 - 14:10</div>
+          <div>
+            <div className={styles.sessionTitle}>쉬는시간</div>
+          </div>
+        </div>
+        <div className={styles.scheduleItem}>
+          <div className={styles.time}>14:10 - 14:40</div>
           <div>
           <div className={styles.sessionTitle}>AudioKit 프레임워크를 활용하여 제작한 고성능 드럼 앱을 소개합니다</div>
             <div className={styles.hostInfo}>Alvin</div>
           </div>
         </div>
         <div className={styles.scheduleItem}>
-          <div className={styles.time}>14:20 - 14:40</div>
+          <div className={styles.time}>14:40 - 15:50</div>
           <div>
-            <div className={styles.sessionTitle}>쉬는시간</div>
+            <div className={styles.sessionTitle}>Networking</div>
           </div>
         </div>
         <div className={styles.scheduleItem}>
-          <div className={styles.time}>14:40 - 15:10</div>
+          <div className={styles.time}>15:50 - 16:20</div>
           <div>
           <div className={styles.sessionTitle}>SwiftUI 렌더링 성능 개선</div>
             <div className={styles.hostInfo}>스마일</div>
           </div>
         </div>
         <div className={styles.scheduleItem}>
-          <div className={styles.time}>15:10 - 15:40</div>
+          <div className={styles.time}>16:20 - 16:50</div>
           <div>
           <div className={styles.sessionTitle}>AI가 코딩하는 시대에 개발자가 되겠다구요?</div>
             <div className={styles.hostInfo}>곰튀김</div>
           </div>
         </div>
         <div className={styles.scheduleItem}>
-          <div className={styles.time}>15:40 - 16:50</div>
-          <div>
-            <div className={styles.sessionTitle}>Networking</div>
-          </div>
-        </div>
-        <div className={styles.scheduleItem}>
           <div className={styles.time}>16:50 - 17:00</div>
           <div>
-            <div className={styles.sessionTitle}>단체사진 촬영 및 폐회사</div>
+            <div className={styles.sessionTitle}>폐회사</div>
             <div className={styles.hostInfo}>let us: Go!</div>
           </div>
         </div>
