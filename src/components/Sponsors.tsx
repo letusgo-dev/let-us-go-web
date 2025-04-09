@@ -1,6 +1,7 @@
 import Signature4Big from "@/assets/svgs/signature4-big.svg?react";
 import Signature4Small from "@/assets/svgs/signature4-small.svg?react";
 import { css } from "@styled-system/css";
+import hanbitMediaImage from "@/assets/images/sponsors/hanbitmedia.jpg";
 import { forwardRef } from "react";
 
 const Sponsors = forwardRef<HTMLDivElement>((_props, ref) => {
@@ -16,26 +17,15 @@ const Sponsors = forwardRef<HTMLDivElement>((_props, ref) => {
       <div className={styles.describe}>
         let us: Go!는 여러분과 후원사의 지원으로{"\n"} 만들어집니다.
       </div>
-      <div className={styles.place}>곧 공개됩니다.</div>
-      
-      {/*
       <div className={styles.imageContainer}>
         <div>
-          <div className={styles.eliceLab}>
-            <img src={eliceLabImage} alt="엘리스랩" />
+          <div className={styles.sponsorLogo}>
+            <img src={hanbitMediaImage} alt="한빛미디어" />
           </div>
-          <div className={styles.place}>장소지원</div>
-          <div className={styles.placeName}>엘리스랩</div>
-        </div>
-        <div>
-          <div className={styles.eliceLab}>
-            <img src={appknotImage} alt="앱노트" />
-          </div>
-          <div className={styles.place}>간식지원</div>
-          <div className={styles.placeName}>앱노트</div>
+          <div className={styles.place}>도서지원</div>
+          <div className={styles.placeName}>한빛미디어</div>
         </div>
       </div>
-      */}
     </div>
   );
 });
@@ -104,12 +94,12 @@ const styles = {
       gap: "3.5rem",
     },
   }),
-  eliceLab: css({
-    width: "22rem",
+  sponsorLogo: css({
+    width: "28rem",
     marginBottom: "4.4rem",
 
     "@media (max-width: 768px)": {
-      width: "11rem",
+      width: "18rem",
       marginBottom: "2.2rem",
     },
   }),
