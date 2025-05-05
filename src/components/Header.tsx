@@ -21,7 +21,14 @@ const Header = ({ onScrollToSection }: Props) => {
           <li onClick={() => onScrollToSection("location")}>Location</li>
           <li onClick={() => onScrollToSection("contact")}>Contact</li>
         </ul>
-        {/* <button className={styles.registerButton}>🧑‍💻 컨퍼런스 신청하기</button> */}
+        {
+          <button 
+            className={styles.registerButton}
+            onClick={() => window.open('https://www.youtube.com/playlist?list=PLfx4MMAj7YbHmfbcHSGIIH33yvpptIzT7', '_blank')}
+          >
+          🧑‍💻 컨퍼런스 영상 보기
+          </button>
+        }
       </nav>
     </header>
   );
