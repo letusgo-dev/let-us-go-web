@@ -15,18 +15,19 @@ const Invitation = () => {
       </div>
       <div className={styles.title}>Invitation</div>
       <div className={classNames(styles.description, styles.desktopOnly)}>
-        뜨거운 햇살이 시작되는 6월입니다.{"\n"}WWDC의 분위기와 더불어 날씨도 뜨거워지고 있는데요, 이
-        뜨거운 열정을 함께 나누는{"\n"}찍먹톤을 개최합니다. WWDC24의 기술을 슬쩍 찍어먹어보는
-        해커톤인 찍먹톤,{"\n"}새로운 도전과 함께 성장하는 기회를 가져보는 것은 어떨까요?
+        무더운 여름이 본격적으로 시작되는 7월입니다.{"\n"}
+        WWDC의 열기가 여전히 뜨거운 가운데,{"\n"}그 열정을 함께 나누는 찍먹톤을 개최합니다.{"\n"}
+        WWDC25의 기술을 슬쩍 찍어먹어보는 해커톤, 찍먹톤!{"\n"}
+        새로운 도전과 함께 성장할 수 있는 기회를 함께해보는 건 어떨까요?
       </div>
       <div className={classNames(styles.description, styles.mobileOnly)}>
-        뜨거운 햇살이 시작되는 6월입니다.{"\n"}WWDC의 분위기와 더불어 날씨도 뜨거워지고 {"\n"}
-        있는데요, 이 뜨거운 열정을 함께 나누는 찍먹톤을 {"\n"}개최합니다. WWDC24의 기술을 슬쩍
-        찍어먹어{"\n"}보는 해커톤인 찍먹톤, 새로운 도전과 함께 성장하는 {"\n"}기회를 가져보는 것은
-        어떨까요?
+        무더운 여름이 본격적으로 시작되는 7월입니다.{"\n"}
+        WWDC의 열기가 여전히 뜨거운 가운데,{"\n"}그 열정을 함께 나누는 찍먹톤을 개최합니다.{"\n"}
+        WWDC25의 기술을 슬쩍{"\n"}찍어먹어보는 해커톤, 찍먹톤!{"\n"}
+        새로운 도전과 함께 성장할 수 있는{"\n"}기회를 함께해보는 건 어떨까요?
       </div>
       <div className={styles.eventIntro}>
-        6월 29일 토요일, {"\n"}함께 모여 뜨거운 여름을 불태워보자구요 🙌
+        7월 n일 토요일, {"\n"}함께 모여 뜨거운 여름을 불태워보자구요 🙌
       </div>
       <div className={styles.imageContainer}>
         <img src={groupPhotoImage} alt="단체사진" />

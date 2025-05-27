@@ -35,9 +35,9 @@ const Projects2024 = () => {
           RealityKit을 활용하여 모든 사물을 지도에 기록하는 서비스
         </Card.Description>
       </Card>
-      <Card href="https://github.com/letusGo-Hack/Team_9_TToGiO">
+      <Card href="https://github.com/letusGo-Hack/Team_9_TToGiOk">
         <Card.Image src={ttogiokImage} alt="프로젝트 또기옥" />
-        <Card.Year>2023</Card.Year>
+        <Card.Year>2024</Card.Year>
         <Card.Title>또기옥</Card.Title>
         <Card.Description>
           SharePlay와 SwiftData를 활용하여 근처에 있는 친구와 게임을 즐기는 서비스
@@ -79,7 +79,7 @@ const Projects2024 = () => {
       </Card>
       <Card href="https://github.com/letusGo-Hack/Team_8_Meok-Kkae-Bi">
         <Card.Image src={meokcipyImage} alt="프로젝트 먹시피" />
-        <Card.Year>2023</Card.Year>
+        <Card.Year>2024</Card.Year>
         <Card.Title>먹시피</Card.Title>
         <Card.Description>
           페이스 타임을 연결하고 SharePlay를 통해 그림을 그려 맞추는 게임

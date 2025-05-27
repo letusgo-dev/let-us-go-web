@@ -17,7 +17,7 @@ const QnA = forwardRef<HTMLDivElement>((_props, ref) => {
       <div className={styles.content}>
         <QuestionAnswer
           question="찍먹톤이 무엇인가요?"
-          answer="WWDC24에서 새로 나온 기술을 이용하여 하루 동안 진행되는 해커톤입니다."
+          answer="WWDC25에서 새로 나온 기술을 이용하여 하루 동안 진행되는 해커톤입니다."
         />
         <QuestionAnswer
           question="참가 대상이 누군가요?"
@@ -25,7 +25,7 @@ const QnA = forwardRef<HTMLDivElement>((_props, ref) => {
         />
         <QuestionAnswer
           question="참가 신청은 언제하나요?"
-          answer="신청 기간은 5월 31일 ~ 6월 11일 18시까지 입니다. 연차별로 TO가 있어 먼저 마감이 될 수도 있습니다. 빠르게 지원해주세요! 참여 여부 발표는 6월 15일에 발표될 예정입니다."
+          answer="신청 기간은 6월 16일 ~ 6월 22일 18시까지 입니다. 연차별로 TO가 있어 먼저 마감이 될 수도 있습니다. 빠르게 지원해주세요! 참여 여부 발표는 6월 27일에 발표될 예정입니다."
         />
         <QuestionAnswer
           question="팀은 어떻게 구성되나요?"

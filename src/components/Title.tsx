@@ -44,8 +44,8 @@ const Title = () => {
           />
         </span>
       </div>
-      <div className={styles.description}>a.k.a 2024 찍먹톤에 초대합니다.</div>
-      <div className={styles.date}>2024.6.29(SAT) 10:00 - 21:00</div>
+      <div className={styles.description}>a.k.a 2025 찍먹톤에 초대합니다.</div>
+      <div className={styles.date}>2025.7.0(SAT) 09:30 - 21:00</div>
       <a href="https://forms.gle/XYgxktLg4RuHBntX6" target="_blank" className={styles.applyButton}>
         🧑‍💻해커톤 신청하기
       </a>
