@@ -1,8 +1,6 @@
 import Signature4Big from "@/assets/svgs/signature4-big.svg?react";
 import Signature4Small from "@/assets/svgs/signature4-small.svg?react";
 import { css } from "@styled-system/css";
-import eliceLabImage from "@/assets/images/sponsors/eliceLab.png";
-import appknotImage from "@/assets/images/sponsors/appknot.png";
 
 const Sponsors = () => {
   return (
@@ -19,18 +17,7 @@ const Sponsors = () => {
       </div>
       <div className={styles.imageContainer}>
         <div>
-          <div className={styles.eliceLab}>
-            <img src={eliceLabImage} alt="엘리스랩" />
-          </div>
-          <div className={styles.place}>장소지원</div>
-          <div className={styles.placeName}>엘리스랩</div>
-        </div>
-        <div>
-          <div className={styles.eliceLab}>
-            <img src={appknotImage} alt="앱노트" />
-          </div>
-          <div className={styles.place}>간식지원</div>
-          <div className={styles.placeName}>앱노트</div>
+          <div className={styles.place}>추후 공개됩니다.</div>
         </div>
       </div>
     </div>

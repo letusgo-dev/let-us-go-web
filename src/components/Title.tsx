@@ -46,8 +46,8 @@ const Title = () => {
       </div>
       <div className={styles.description}>a.k.a 2025 찍먹톤에 초대합니다.</div>
       <div className={styles.date}>2025.7.19(SAT) 09:30 - 21:00</div>
-      <a href="https://forms.gle/XYgxktLg4RuHBntX6" target="_blank" className={styles.applyButton}>
-        🧑‍💻해커톤 신청하기
+      <a href="https://forms.gle/pczjQkCkqLwYBE3a9" target="_blank" className={styles.applyButton}>
+        🧑‍💻 해커톤 신청하기
       </a>
     </div>
   );

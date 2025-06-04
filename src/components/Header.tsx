@@ -19,7 +19,12 @@ const Header = ({ onScrollToSection }: Props) => {
           <li onClick={() => onScrollToSection("qna")}>QnA</li>
           <li onClick={() => onScrollToSection("contact")}>Contact</li>
         </ul>
-        <button className={styles.registerButton}>🧑‍💻 해커톤 신청하기</button>
+        <button
+          className={styles.registerButton}
+          onClick={() =>
+            window.open("https://forms.gle/pczjQkCkqLwYBE3a9", "_blank", "noopener,noreferrer")
+          }
+        > 🧑‍💻 해커톤 신청하기</button>
       </nav>
     </header>
   );
