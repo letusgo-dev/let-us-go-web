@@ -30,7 +30,7 @@ const styles = {
 
     "@media (max-width: 768px)": {
       width: "11.4rem",
-      height: "3rem",
+      height: "4rem",
       fontSize: "1.2rem",
       borderRadius: "0.8rem",
       borderWidth: "0.1rem",

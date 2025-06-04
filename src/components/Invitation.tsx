@@ -27,7 +27,7 @@ const Invitation = () => {
         새로운 도전과 함께 성장할 수 있는{"\n"}기회를 함께해보는 건 어떨까요?
       </div>
       <div className={styles.eventIntro}>
-        7월 n일 토요일, {"\n"}함께 모여 뜨거운 여름을 불태워보자구요 🙌
+        7월 19일 토요일, {"\n"}함께 모여 뜨거운 여름을 불태워보자구요 🙌
       </div>
       <div className={styles.imageContainer}>
         <img src={groupPhotoImage} alt="단체사진" />
