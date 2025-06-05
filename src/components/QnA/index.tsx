@@ -49,7 +49,7 @@ const QnA = forwardRef<HTMLDivElement>((_props, ref) => {
         />
         <QuestionAnswer
           question="환불이 가능한가요?"
-          answer="입금 기간동안만 환불이 가능합니다. 입금 기간이 지난 이후에는 저희가 굿즈 등 구매를 진행하기 때문에 환불 및 양도가 불가능합니다."
+          answer="7월 12일까지 환불이 가능하고, 이후에는 환불은 불가능하며 양도만 가능합니다."
         />
       </div>
     </div>
