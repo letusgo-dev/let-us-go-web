@@ -25,7 +25,7 @@ const QnA = forwardRef<HTMLDivElement>((_props, ref) => {
         />
         <QuestionAnswer
           question="참가 신청은 언제부터 인가요?"
-          answer="신청 기간은 6월 16일 ~ 6월 25일 18시까지입니다. 연차별로 TO가 있어 먼저 마감이 될 수도 있습니다. 빠르게 지원해 주세요! 참여 여부 발표는 6월 27일에 발표될 예정입니다."
+          answer="신청 기간은 6월 16일 ~ 6월 25일 18시까지입니다. 연차별로 TO가 있어 먼저 마감이 될 수도 있습니다. 빠르게 지원해 주세요! 참여 여부 발표는 6월 28일~30일 중으로 발표 예정입니다."
         />
         <QuestionAnswer
           question="팀은 어떻게 구성되나요?"
