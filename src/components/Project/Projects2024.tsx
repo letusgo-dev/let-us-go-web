@@ -17,14 +17,16 @@ const Projects2024 = () => {
         <Card.Image src={visionDeskImage} alt="프로젝트 vision desk" />
         <Card.Year>2024</Card.Year>
         <Card.Title>Vision Desk</Card.Title>
-        <Card.Description>SharePlay를 이용한 MBTI 공유 지갑</Card.Description>
+        <Card.Description>
+          Vision Pro를 통해 가상 공간에서 책상 위 작업대를 재현합니다.
+        </Card.Description>
       </Card>
       <Card href="https://github.com/letusGo-Hack/Team_5_Tomato">
         <Card.Image src={toimerImage} alt="프로젝트 토이머" />
         <Card.Year>2024</Card.Year>
         <Card.Title>토이머</Card.Title>
         <Card.Description>
-          Live Activity 기능을 활용하여 도보 운동과 러닝을 적극 장려하는 애플리케이션
+          Control API를 이용한 시간 관리 앱
         </Card.Description>
       </Card>
       <Card href="https://github.com/letusGo-Hack/Team_7_Emotionalyst">
@@ -40,7 +42,8 @@ const Projects2024 = () => {
         <Card.Year>2024</Card.Year>
         <Card.Title>또기옥</Card.Title>
         <Card.Description>
-          SharePlay와 SwiftData를 활용하여 근처에 있는 친구와 게임을 즐기는 서비스
+          그 동안 로또에 당첨되지 못한 이유, 어쩌면 정성이 부족해서 그렇진 않았을까요?
+          정성으로 뽑는 랜덤 로또 번호 생성기, 또기옥!
         </Card.Description>
       </Card>
 
@@ -49,7 +52,7 @@ const Projects2024 = () => {
         <Card.Year>2024</Card.Year>
         <Card.Title>한 줄 일기</Card.Title>
         <Card.Description>
-          ActivityKit, WidgetKit을 사용하여 Widget 으로 지하철을 내려야 할 시점을 알려주는 서비스
+          ControlWidget에 자연어 처리를 통하여 나의 감정을 기록하는 앱
         </Card.Description>
       </Card>
       <Card href="https://github.com/letusGo-Hack/Team_2_SaveUs">
@@ -57,15 +60,14 @@ const Projects2024 = () => {
         <Card.Year>2024</Card.Year>
         <Card.Title>Save us</Card.Title>
         <Card.Description>
-          여러 사람과 같이 유쾌 하게 ~ 퀴즈. SwiftData, SFSymbol Animation를 활용하여 여러 사람과
-          같이 퀴즈를 푸는 애플리케이션
+          WeatherKit을 활용하여 과거-현재 데이터로 지구 온난화의 심각도를 시각화
         </Card.Description>
       </Card>
       <Card href="https://github.com/letusGo-Hack/Team_3_Roadkill">
         <Card.Image src={roadKillImage} alt="프로젝트 로드킬" />
         <Card.Year>2024</Card.Year>
         <Card.Title>로드킬</Card.Title>
-        <Card.Description>위젯과 Live Activity 활용한 라면 타이머 애플리케이션</Card.Description>
+        <Card.Description>AppIntents와 CoreML을 활용하여 복잡했던 로드킬 신고를 간편하게! </Card.Description>
       </Card>
 
       <Card href="https://github.com/letusGo-Hack/Team_4_TripLogger">
@@ -73,8 +75,7 @@ const Projects2024 = () => {
         <Card.Year>2024</Card.Year>
         <Card.Title>Trip Logger</Card.Title>
         <Card.Description>
-          지우가 되어 몬스터볼을 모아보자! ARKit, RealityKit을 활용하여 사물을 스캔하고 띄워주는
-          서비스
+          WeatherKit, SwiftData, Translation API를 사용한 여행 기록을 쉽게 도와주는 앱
         </Card.Description>
       </Card>
       <Card href="https://github.com/letusGo-Hack/Team_8_Meok-Kkae-Bi">
@@ -82,7 +83,7 @@ const Projects2024 = () => {
         <Card.Year>2024</Card.Year>
         <Card.Title>먹시피</Card.Title>
         <Card.Description>
-          페이스 타임을 연결하고 SharePlay를 통해 그림을 그려 맞추는 게임
+          Live Activity를 활용하여 애플워치로 요리 레시피를 보며 편하게 요리하자!
         </Card.Description>
       </Card>
     </div>
