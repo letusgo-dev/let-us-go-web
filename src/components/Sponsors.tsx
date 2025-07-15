@@ -2,6 +2,8 @@ import Signature4Big from "@/assets/svgs/signature4-big.svg?react";
 import Signature4Small from "@/assets/svgs/signature4-small.svg?react";
 import { css } from "@styled-system/css";
 import eliceLabImage from "@/assets/images/sponsors/eliceLab.png";
+import hanbitMediaImage from "@/assets/images/sponsors/hanbitMedia.jpg";
+import revenueCatImage from "@/assets/images/sponsors/revenueCat.png";
 
 const Sponsors = () => {
   return (
@@ -17,6 +19,20 @@ const Sponsors = () => {
         let us: Go!는 여러분과 후원사의 지원으로{"\n"} 만들어집니다.
       </div>
       <div className={styles.imageContainer}>
+        <div>
+          <div className={styles.revenueCat}>
+            <img src={revenueCatImage} alt="RevenueCat" />
+          </div>
+          <div className={styles.place}>플래티넘 스폰서</div>
+          <div className={styles.placeName}>RevenueCat</div>
+        </div>
+        <div>
+          <div className={styles.eliceLab}>
+            <img src={hanbitMediaImage} alt="한빛미디어" />
+          </div>
+          <div className={styles.place}>도서지원</div>
+          <div className={styles.placeName}>한빛미디어</div>
+        </div>
         <div>
           <div className={styles.eliceLab}>
             <img src={eliceLabImage} alt="엘리스랩" />
@@ -86,14 +102,24 @@ const styles = {
     display: "flex",
     flexFlow: "column wrap",
     gap: "10rem",
+    alignItems: "center",
 
     "@media (max-width: 768px)": {
       gap: "3.5rem",
     },
   }),
+  revenueCat: css({
+    width: "33rem",
+    marginBottom: "2rem",
+
+    "@media (max-width: 768px)": {
+      width: "22rem",
+      marginBottom: "2.2rem",
+    },
+  }),
   eliceLab: css({
     width: "22rem",
-    marginBottom: "4.4rem",
+    marginBottom: "2rem",
 
     "@media (max-width: 768px)": {
       width: "11rem",
