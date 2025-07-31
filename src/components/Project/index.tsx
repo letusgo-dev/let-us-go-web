@@ -2,8 +2,10 @@ import { forwardRef } from "react";
 import Signature3Big from "@/assets/svgs/signature3-big.svg?react";
 import Signature3Small from "@/assets/svgs/signature3-small.svg?react";
 import { css } from "@styled-system/css";
+import Projects2025 from "./Projects2025";
 import Projects2024 from "./Projects2024";
 import Projects2023 from "./Projects2023";
+import ToggleProjects from "./ToggleProjects";
 
 const Project = forwardRef<HTMLDivElement>((_props, ref) => {
   return (
@@ -15,9 +17,18 @@ const Project = forwardRef<HTMLDivElement>((_props, ref) => {
         <Signature3Small />
       </div>
       <div className={styles.title}>Projects</div>
+      <div className={styles.cardContainer} style={{ marginBottom: "6.4rem" }}>
+        <Projects2025 />
+      </div>
       <div className={styles.cardContainer}>
-        <Projects2024 />
-        <Projects2023 />
+        <ToggleProjects
+          year="2024년 프로젝트"
+          projects={<Projects2024 />}
+        />
+        <ToggleProjects
+          year="2023년 프로젝트"
+          projects={<Projects2023 />}
+        />
       </div>
     </div>
   );
@@ -67,6 +78,8 @@ const styles = {
   cardContainer: css({
     display: "flex",
     flexDirection: "column",
+    alignItems: "center",
+    justifyContent: "center",
     gap: "3.2rem",
-  }),
+  })
 };

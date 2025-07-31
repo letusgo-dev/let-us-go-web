@@ -18,11 +18,13 @@ export default Card;
 interface ImageProps {
   src: string;
   alt: string;
+  aspectRatio?: string;
 }
 
-const Image = ({ src, alt }: ImageProps) => {
+const Image = ({ src, alt, aspectRatio = "4/3" }: ImageProps) => {
   return (
-    <div className={styles.image}>
+    <div className={styles.image}
+    style={{aspectRatio}}>
       <img src={src} alt={alt} className={styles.img} />
     </div>
   );
@@ -74,7 +76,6 @@ const styles = {
     overflow: "hidden",
     borderTopRadius: "1.2rem",
     width: "calc(100% + 5.6rem)",
-    height: "284px",
     margin: "-3.2rem 0 3.2rem -2.8rem",
   }),
   img: css({
