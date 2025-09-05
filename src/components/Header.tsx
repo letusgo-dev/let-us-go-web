@@ -3,7 +3,7 @@ import headerLogo from "@/assets/images/header-logo.png";
 
 interface Props {
   onScrollToSection: (
-    section: "timetable" | "speakers" | "location" | "sponsors" | "contact",
+    section: "timetable" | "location" | "contact",
   ) => void;
 }
 
@@ -15,18 +15,16 @@ const Header = ({ onScrollToSection }: Props) => {
           <img src={headerLogo} />
         </div>
         <ul className={styles.menu}>
-          <li onClick={() => onScrollToSection("speakers")}>Speakers</li>
           <li onClick={() => onScrollToSection("timetable")}>Timetable</li>
-          <li onClick={() => onScrollToSection("sponsors")}>Sponsors</li>
           <li onClick={() => onScrollToSection("location")}>Location</li>
           <li onClick={() => onScrollToSection("contact")}>Contact</li>
         </ul>
         {
           <button 
             className={styles.registerButton}
-            onClick={() => window.open('https://www.youtube.com/playlist?list=PLfx4MMAj7YbHmfbcHSGIIH33yvpptIzT7', '_blank')}
+            onClick={() => window.open('https://smartstore.naver.com/let-us-go/products/12322386905', '_blank')}
           >
-          🧑‍💻 컨퍼런스 영상 보기
+          🎟️ 티켓 구매하기
           </button>
         }
       </nav>

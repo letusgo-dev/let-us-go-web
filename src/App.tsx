@@ -4,9 +4,7 @@ import Header from "./components/Header";
 import Title from "./components/Title";
 import Banner from "./components/Banner";
 import Invitation from "./components/Invitation";
-import Speakers from "./components/Speakers";
 import Timetable from "./components/Timetable";
-import Sponsors from "./components/Sponsors";
 import Committees from "./components/Committees";
 import Location from "./components/Location";
 import Contact from "./components/Contact";
@@ -15,20 +13,16 @@ import Footer from "./components/Footer";
 
 const App = () => {
   const timetableRef = useRef<HTMLDivElement>(null);
-  const speakersRef = useRef<HTMLDivElement>(null);
   const locationRef = useRef<HTMLDivElement>(null);
-  const sponsorsRef = useRef<HTMLDivElement>(null);
   const committeesRef = useRef<HTMLDivElement>(null);
   const contactRef = useRef<HTMLDivElement>(null);
 
   const scrollToSection = (
-    section: "timetable" | "speakers" | "location" | "sponsors" | "committees" | "contact",
+    section: "timetable" | "location" | "committees" | "contact",
   ) => {
     const sectionRef = {
       timetable: timetableRef,
-      speakers: speakersRef,
       location: locationRef,
-      sponsors: sponsorsRef,
       committees: committeesRef,
       contact: contactRef,
     }[section];
@@ -50,9 +44,7 @@ const App = () => {
         <Banner />
         <div className={styles.contentContainer}>
           <Invitation />
-          <Speakers ref={speakersRef} />
           <Timetable ref={timetableRef} />
-          <Sponsors ref={sponsorsRef} />
           <Location ref={locationRef} />
           <Committees ref={committeesRef} />
           <Contact ref={contactRef} />

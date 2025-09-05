@@ -30,7 +30,7 @@ const Title = () => {
         </svg>
         <span className={styles.hack}>
           <TypeAnimation
-            sequence={["Conf", 1000, "", 1000]}
+            sequence={["Network", 1000, "", 1000]}
             wrapper="span"
             speed={30}
             style={{
@@ -46,14 +46,14 @@ const Title = () => {
           />
         </span>
       </div>
-      <div className={styles.description}>iOS 개발자들의 2025 봄 컨퍼런스에 초대합니다.</div>
-      <div className={styles.date}>2025.4.26(SAT) 13:00 - 17:00</div>
-      <a 
-        href="https://www.youtube.com/playlist?list=PLfx4MMAj7YbHmfbcHSGIIH33yvpptIzT7"
+      <div className={styles.description}>iOS 개발자들의 2025 가을 네트워킹 행사에 초대합니다.</div>
+      <div className={styles.date}>2025.9.27(SAT) 10:00 - 17:00</div>
+      <a
+        href="https://smartstore.naver.com/let-us-go/products/12322386905"
         target="_blank"
         className={styles.applyButton}
         >
-        🧑‍💻 컨퍼런스 영상 보기
+        🎟️ 티켓 구매하기
       </a>
     </div>
   );

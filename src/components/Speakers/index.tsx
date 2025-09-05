@@ -4,79 +4,7 @@ import ProfileCard from "./ProfileCard";
 import Signature2Big from "@/assets/svgs/signature2-big.svg?react";
 import Signature2Small from "@/assets/svgs/signature2-small.svg?react";
 // import commingsoonImage from "@/assets/svgs/logo_filled.svg";
-import gomImage from "@/assets/images/Speakers/bear.jpeg";
-import smileImage from "@/assets/images/Speakers/smile.jpeg";
-import tomImage from "@/assets/images/Speakers/tom.jpg";
-import alvinImage from "@/assets/images/Speakers/alvin.jpeg";
-import smisImage from "@/assets/images/Speakers/smis.png";
 
-const Speakers = forwardRef<HTMLDivElement>((_props, ref) => {
-  return (
-    <div ref={ref} className={styles.container}>
-      <div className={styles.logoContainer}>
-        <div className={styles.bigSignature}>
-          <Signature2Big />
-        </div>
-        <div className={styles.smallSignature}>
-          <Signature2Small />
-        </div>
-      </div>
-      <div className={styles.title}>Speakers</div>
-      <div className={styles.cardContainer}>
-        <ProfileCard
-          image={gomImage}
-          role="speaker"
-          nickname="곰튀김"
-          company="보이저엑스"
-          comment="리얼리즘 프로그래머"
-        />
-        <ProfileCard
-          image={smileImage}
-          role="speaker"
-          nickname="스마일"
-          company="SOOP"
-          comment={
-            <>
-            버그와 함께 미소를 잃은<br/>
-            스마일입니다.
-            </>
-            }
-        />
-        <ProfileCard
-          image={smisImage}
-          role="speaker"
-          nickname="스미스"
-          company="딜라이트룸"
-          comment="잘 부탁드립니다!"
-        />
-        <ProfileCard
-          image={tomImage}
-          role="speaker"
-          nickname="톰"
-          company="채널코퍼레이션"
-          comment="육아 관련 대화 환영"
-        />
-        <ProfileCard
-          image={alvinImage}
-          role="speaker"
-          nickname="Alvin"
-          company="Appknot"
-          comment="Do you like maple syrup?"
-        />
-
-        {/* <ProfileCard
-          image={commingsoonImage}
-          role="speaker"
-          nickname="곧 공개됩니다"
-          company=""
-          comment="Coming soon"
-        /> */}
-      </div>
-    </div>
-  );
-});
-
-export default Speakers;
 
 const styles = {
   container: css({
