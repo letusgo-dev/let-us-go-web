@@ -1,6 +1,6 @@
 import { forwardRef } from "react";
 import { css } from "@styled-system/css";
-import ProfileCard from "./Speakers/ProfileCard";
+import ProfileCard from "./ProfileCard";
 import Signature2Big from "@/assets/svgs/signature2-big.svg?react";
 import Signature2Small from "@/assets/svgs/signature2-small.svg?react";
 import yagomImage from "@/assets/images/Committees/yagom.png";
