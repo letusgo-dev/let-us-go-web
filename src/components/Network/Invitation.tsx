@@ -31,7 +31,7 @@ const Invitation = () => {
         마무리할 완벽한 시간이 될 거에요.
         {"\n"}
       </div>
-      <div className={styles.eventIntro}>11월 29일 금요일, {"\n"}잊지 못할 저녁 함께 하실래요?</div>
+      <div className={styles.eventIntro}>12월 10일 수요일, {"\n"}잊지 못할 저녁 함께 하실래요?</div>
       <div className={styles.imageContainer}>
         <img src={groupPhotoImage} alt="단체사진" />
       </div>

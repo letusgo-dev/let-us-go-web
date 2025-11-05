@@ -44,8 +44,8 @@ const Title = () => {
           />
         </span>
       </div>
-      <div className={styles.description}>iOS 개발자들의 2024 연말 네트워킹에 초대합니다.</div>
-      <div className={styles.date}>2024.11.29(FRI) 19:00 - 22:30</div>
+      <div className={styles.description}>iOS 개발자들의 2025 연말 네트워킹에 초대합니다.</div>
+      <div className={styles.date}>2025.12.10(WED) 19:00 - 22:30</div>
       <a
         href="https://smartstore.naver.com/let-us-go/products/11017888414"
         target="_blank"

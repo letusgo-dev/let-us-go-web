@@ -22,7 +22,7 @@ const Location = forwardRef<HTMLDivElement>((_props, ref) => {
         <Signature1Mobile />
       </div>
       <div className={styles.title}>Location</div>
-      <div>강남 모드라운지에서 11월 29일에 만나요!</div>
+      <div>강남 모드라운지에서 12월 10일에 만나요!</div>
       <div className={styles.mapContainer}>
         <Map
           id="map"
