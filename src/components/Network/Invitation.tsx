@@ -16,22 +16,17 @@ const Invitation = () => {
       <div className={styles.title}>Invitation</div>
       <div className={classNames(styles.description, styles.pcOnly)}>
         길었던 여름이 지나고 차가운 겨울 공기가 느껴지는 요즘, {"\n"}
-        함께 모여 따뜻한 저녁을 보내는건 어떨까요? ❄️{"\n"}
-        이번 겨울에는 한 해의 피로를 풀고, 힐링의 시간을 가져보려 합니다. {"\n"}
-        또한, 바자회와 개인 앱을 홍보할 기회도 있으니 함께 따뜻한 대화를 나누며 {"\n"}한 해를
-        마무리할 완벽한 시간이 될 거에요.
-        {"\n"}
+        함께 모여 따뜻한 저녁을 보내는건 어떨까요? ❄️{"\n"}{"\n"}
+        이번 겨울에는 지난 10년간의 렛어스고 행사를 돌아보며, 잠깐의 이별을 고합니다.{"\n"}{"\n"}
+        또, 여러 행사 속 행사도 준비되어 있으니 많은 참여 부탁드립니다 :D{"\n"}
       </div>
       <div className={classNames(styles.description, styles.mobileOnly)}>
         길었던 여름이 지나고 차가운 겨울 공기가 느껴지는 요즘, {"\n"}
-        함께 모여 따뜻한 저녁을 보내는건 어떨까요? ❄️{"\n"}
-        이번 겨울에는 한 해의 피로를 풀고, {"\n"}
-        힐링의 시간을 가져보려 합니다. {"\n"}
-        또한, 바자회와 개인 앱을 홍보할 기회도 있으니 {"\n"}함께 따뜻한 대화를 나누며 {"\n"}한 해를
-        마무리할 완벽한 시간이 될 거에요.
-        {"\n"}
+        함께 모여 따뜻한 저녁을 보내는건 어떨까요? ❄️{"\n"}{"\n"}
+        이번 겨울에는 지난 10년간의 렛어스고 행사를 돌아보며, 잠깐의 이별을 고합니다.{"\n"}{"\n"}
+        또, 여러 행사 속 행사도 준비되어 있으니 많은 참여 부탁드립니다 :D {"\n"}
       </div>
-      <div className={styles.eventIntro}>12월 10일 수요일, {"\n"}잊지 못할 저녁 함께 하실래요?</div>
+      <div className={styles.eventIntro}>11월 26일 수요일, {"\n"}잊지 못할 저녁 함께 하실래요?</div>
       <div className={styles.imageContainer}>
         <img src={groupPhotoImage} alt="단체사진" />
       </div>

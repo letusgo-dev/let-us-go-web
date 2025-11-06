@@ -22,7 +22,8 @@ const Location = forwardRef<HTMLDivElement>((_props, ref) => {
         <Signature1Mobile />
       </div>
       <div className={styles.title}>Location</div>
-      <div>강남 모드라운지에서 12월 10일에 만나요!</div>
+      <div>모드라운지 신논현점에서 11월 26일에 만나요!</div>
+      <div className={styles.locationDetail}>서울특별시 강남구 강남대로114길 13, 광명빌딩 지하 1층</div>
       <div className={styles.mapContainer}>
         <Map
           id="map"
@@ -86,6 +87,14 @@ const styles = {
     "@media (max-width: 768px)": {
       fontSize: "3.2rem",
       marginBottom: "3.6rem",
+    },
+  }),
+  locationDetail: css({
+    fontSize: "2rem",
+    fontWeight: 400,
+
+    "@media (max-width: 768px)": {
+      fontSize: "1.2rem"
     },
   }),
   mapContainer: css({

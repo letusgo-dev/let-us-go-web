@@ -4,6 +4,7 @@ import { css } from "@styled-system/css";
 import { forwardRef } from "react";
 import Time from "./Time";
 import Schedule from "./Schedule";
+import Event from "./Event";
 
 const Timetable = forwardRef<HTMLDivElement>((_props, ref) => {
   return (
@@ -20,12 +21,8 @@ const Timetable = forwardRef<HTMLDivElement>((_props, ref) => {
       <div className={styles.timetableContainer}>
         <div className={styles.timeContainer}>
           <Time>19:00-19:10</Time>
-          <Time>19:30-20:00</Time>
-          <Time>20:00-20:30</Time>
-          <Time>20:30-21:00</Time>
           <Time>21:00-21:10</Time>
-          <Time>21:10-21:30</Time>
-          <Time>22:30-23:00</Time>
+          <Time>22:00-22:30</Time>
           <Time>상시</Time>
         </div>
         <div className={styles.scheduleContainer}>
@@ -33,25 +30,18 @@ const Timetable = forwardRef<HTMLDivElement>((_props, ref) => {
             🎤 개회사 <span className={styles.time}>(19:00 - 19:10)</span>
           </Schedule>
           <Schedule>
-            🥳 개인 앱 페스티벌 <span className={styles.time}>(19:30 - 20:00)</span>
-          </Schedule>
-          <Schedule>
-            🍚 심야식당 <span className={styles.time}>(20:00 - 20:30)</span>
-          </Schedule>
-          <Schedule>
-            🤑 바자회 <span className={styles.time}>(20:30 - 21:00)</span>
-          </Schedule>
-          <Schedule>
             📸 단체사진 촬영
             <span className={styles.time}>(21:00 - 21:10)</span>
           </Schedule>
           <Schedule>
-            🍚 심야식당 <span className={styles.time}>(21:10 - 21:30)</span>
+            🧹 마무리 <span className={styles.time}>(22:00 - 22:30)</span>
           </Schedule>
-          <Schedule>
-            🧹 마무리 <span className={styles.time}>(22:30 - 23:00)</span>
-          </Schedule>
-          <Schedule>🎄 소원나무, 바자회(가판)</Schedule>
+          <Event>
+            <p>🎄 행사 속 행사 🎄</p><br/>
+            <b>무엇이든 물어보세요</b> 렛어스고 운영진에게 물어보고 싶은 그 무엇이든, 질문 받아요!<br/><br/>
+            <b>렛어스고 골든벨</b> 퀴즈도 풀고 상품도 받아가세요!<br/><br/>
+            <b>개입앱 홍보코너</b> 내가 만든 앱, 마음껏 자랑해보세요!<br/>
+          </Event>
         </div>
       </div>
     </div>

@@ -17,7 +17,7 @@ const Header = ({ onScrollToSection }: Props) => {
           <li onClick={() => onScrollToSection("location")}>Location</li>
           <li onClick={() => onScrollToSection("contact")}>Contact</li>
         </ul>
-        <a href="https://smartstore.naver.com/let-us-go/products/11017888414" target="_blank" className={styles.registerButton}>🥳 네트워킹 신청하기</a>
+        <a href="https://smartstore.naver.com/let-us-go/products/12644390666" target="_blank" className={styles.registerButton}>🥳 네트워킹 신청하기</a>
       </nav>
     </header>
   );
